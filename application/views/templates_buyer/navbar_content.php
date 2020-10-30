@@ -7,8 +7,8 @@
 			</div>
 			<div class="agile-login">
 				<ul>
-					<li><a href="registered.html"> Create Account </a></li>
-					<li><a href="login.html">Login</a></li>
+					<li><a href="<?php echo site_url('dashboard/register')?>"> Create Account </a></li>
+					<li><a href="<?php echo site_url('dashboard/login')?>">Login</a></li>
 					<li><a href="contact.html">Help</a></li>
 					
 				</ul>
@@ -64,7 +64,7 @@
 							</div> 
 							<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 								<ul class="nav navbar-nav">
-									<li class="active"><a href="index.html" class="act">Home</a></li>	
+									<li class="active"><a href="<?php echo site_url('dashboard/index') ?>" class="act">Home</a></li>	
 									<!-- Mega Menu -->
 									<li class="active"><a href="index.html" class="act">Kategori 1</a></li>
 									<li class="dropdown">
